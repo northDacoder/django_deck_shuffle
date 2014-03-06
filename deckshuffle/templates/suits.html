@@ -1,0 +1,9 @@
+    <h2>{{ suit | title }}</h2>
+    {% for card in deck %}
+        {% if card.suit == suit %}
+            <h1>Cards: {{ card.name }}</h1>
+        {% endif %}
+    {% endfor %}
+
+
+

@@ -1,0 +1,13 @@
+<!-- deckshuffle/templates/base_template.html -->
+{% load deck_tags %}
+<html>
+<head>
+    <title>My Site</title>
+</head>
+<body>
+    <content>{% block content %}{% endblock %}</content>
+    <div>Hey</div>
+    <div>{% deal | two %}</div>
+    <footer></footer>
+</body>
+</html>
